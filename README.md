@@ -2,11 +2,11 @@
 
 > Transform your professional experience into an AI-powered resume website
 
+> **Note:** This is a personal adaptation of [ResumeAI by Radical-commits](https://github.com/Radical-commits/resumeai), modified for my own use. If you're looking for the original template to use for yourself, head to the source repo.
+
 ## Overview
 
 ResumeAI is a complete template for creating your own AI-powered resume website. Visitors can interact with an AI chatbot that answers questions about your professional experience, get job fit assessments, and explore your background through an elegant, responsive interface.
-
-**The app comes preconfigured with a sample resume** (Sarah Chen, Senior Product Manager) that you can view immediately after installation. Simply replace it with your own information to make it yours.
 
 ## Features
 
@@ -36,8 +36,8 @@ ResumeAI is a complete template for creating your own AI-powered resume website.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Radical-commits/resumeai.git
-cd resumeai
+git clone https://github.com/petr-agulin/resume-ai-personal.git
+cd resume-ai-personal
 ```
 
 2. **Install dependencies**
@@ -79,10 +79,9 @@ Visit http://localhost:5173 to see your resume!
 ## Documentation
 
 ### Getting Started
-1. **[Quick Start Guide](QUICKSTART.md)** ⭐ - Detailed 5-minute setup (start here!)
-2. **[Customization Guide](docs/CUSTOMIZATION.md)** - Make it yours (colors, theme, content)
-3. **[Deployment Guide](docs/DEPLOYMENT.md)** - Deploy to Render, Vercel, Netlify, or self-host
-4. **[Advanced Guide](docs/ADVANCED.md)** - Complete reference (config, AI providers, languages)
+1. **[Customization Guide](docs/CUSTOMIZATION.md)** - Make it yours (colors, theme, content)
+2. **[Deployment Guide](docs/DEPLOYMENT.md)** - Deploy to Render, Vercel, Netlify, or self-host
+3. **[Advanced Guide](docs/ADVANCED.md)** - Complete reference (config, AI providers, languages)
 
 ## Project Structure
 
@@ -200,7 +199,7 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/Radical-commits/resumeai/issues)
+- **Issues:** [GitHub Issues](https://github.com/petr-agulin/resume-ai-personal/issues)
 - **Documentation:** See the [docs](docs/) directory
 - **Questions:** Open a discussion on GitHub
 
