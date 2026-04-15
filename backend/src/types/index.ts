@@ -67,11 +67,13 @@ export interface ResumePatent {
 export interface ParsedResume {
   contact: ResumeContact
   summary: string
+  highlights: string[]          
   skills: ResumeSkills
   experience: ResumeExperience[]
   education: ResumeEducation[]
   certifications: ResumeCertification[]
   languages: ResumeLanguage[]
+  projects: any[]               
   patents: ResumePatent[]
 }
 

@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Alexander Kirillov",
+    "name": "Name",
     "title": "Senior Product Manager",
     "subtitle": "Building enterprise B2B products with AI and data platforms",
     "statusBadge": "Open to AI Product Manager roles",
@@ -54,7 +54,7 @@
   },
   "chat": {
     "title": "Chat with AI Assistant",
-    "subtitle": "Ask me anything about Alexander's experience",
+    "subtitle": "Ask me anything about my experience",
     "placeholder": "Ask me about my experience...",
     "send": "Send",
     "close": "Close",
@@ -62,7 +62,7 @@
     "typing": "AI is typing...",
     "error": "Something went wrong. Please try again.",
     "errorRetry": "Retry",
-    "welcome": "Hello! I'm an AI assistant trained on Alexander's professional background. Feel free to ask me anything about his experience, skills, or career.",
+    "welcome": "Hello! I'm an AI assistant trained on professional background of a person in resume. Feel free to ask me anything about his experience, skills, or career.",
     "jobFit": {
       "title": "Job Fit Assessment",
       "subtitle": "Paste a job description to assess fit",

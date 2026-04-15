@@ -20,6 +20,7 @@ export function parseResume(): ParsedResume {
     const resume: ParsedResume = {
       contact: {
         name: resumeData.personalInfo?.name || '',
+        title: resumeData.personalInfo?.title || '',
         location: resumeData.personalInfo?.location || '',
         phone: resumeData.personalInfo?.phone || '',
         email: resumeData.personalInfo?.email || '',
@@ -27,11 +28,13 @@ export function parseResume(): ParsedResume {
         github: resumeData.personalInfo?.github || ''
       },
       summary: resumeData.summary || '',
+      highlights: resumeData.highlights || [],
       skills: resumeData.skills || {},
       experience: resumeData.experience || [],
       education: resumeData.education || [],
       certifications: resumeData.certifications || [],
       languages: resumeData.languages || [],
+      projects: resumeData.projects || [],
       patents: resumeData.publications || []
     }
 
@@ -71,6 +74,12 @@ export function getResumeContext(): string {
     if (resume.summary) {
       parts.push(`**Professional Summary:**`)
       parts.push(resume.summary)
+      parts.push('')
+    }
+
+    if (resume.highlights && resume.highlights.length > 0) {
+      parts.push(`**Key Career Highlights:**`)
+      resume.highlights.forEach((h: string) => parts.push(`- ${h}`))
       parts.push('')
     }
 
@@ -132,6 +141,19 @@ export function getResumeContext(): string {
       parts.push(`**Languages:**`)
       resume.languages.forEach((lang: any) => {
         parts.push(`- ${lang.language}: ${lang.proficiency}`)
+      })
+      parts.push('')
+    }
+
+    if (resume.projects && resume.projects.length > 0) {
+      parts.push(`**Projects & Pet Projects:**`)
+      resume.projects.forEach((proj: any) => {
+        parts.push(`\n${proj.name} (${proj.role})`)
+        if (proj.url) parts.push(`URL: ${proj.url}`)
+        parts.push(proj.description)
+        if (proj.highlights) {
+          proj.highlights.forEach((h: string) => parts.push(`- ${h}`))
+        }
       })
       parts.push('')
     }

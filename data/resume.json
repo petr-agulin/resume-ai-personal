@@ -1,247 +1,429 @@
 {
   "personalInfo": {
-    "name": "Sarah Chen",
-    "title": "Senior Product Manager",
-    "location": "San Francisco, CA",
-    "phone": "+1 (415) 555-0123",
-    "email": "sarah.chen@example.com",
-    "linkedin": "https://linkedin.com/in/sarahchen",
-    "github": "https://github.com/schen",
-    "website": "https://sarahchen.com"
+    "name": "Petr Agulin",
+    "title": "B2B SaaS Product Manager",
+    "location": "Gothenburg, Sweden",
+    "phone": "+46 (762) 561-824",
+    "email": "petr.agulin@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/petragulin/",
+    "github": "https://github.com/petr-agulin",
+    "website": "https://www.linkedin.com/in/petragulin/"
   },
-  "summary": "Results-driven Senior Product Manager with 8+ years of experience building and scaling B2C SaaS products for millions of users. Expert in data-driven decision making, growth optimization, and leading cross-functional teams from discovery to launch. Track record of increasing user engagement by 40%+ and driving revenue growth through innovative product features.",
+  "summary": "Experienced and empathetic product manager with hands-on experience building B2B & B2B2C SaaS products for startups, SMEs, and enterprises. Skilled in shaping product strategy, navigating uncertainty, and leading software teams. Combines product management and product marketing expertise with technical aptitude, bridging the gap between engineering and business stakeholders. Applies AI tools and agentic AI to automate and facilitate product research, experimentation, prototyping, and decision-making. Passionate about building scalable software that solves real problems and delivers measurable value to business and users.",
   "highlights": [
-    "Grew active user base from 2M to 8M users in 2 years through strategic feature launches and growth initiatives",
-    "Led redesign of onboarding flow that improved activation rate by 45% and reduced time-to-value by 60%",
-    "Launched AI-powered recommendation engine that increased user session time by 35% and drove $3M in incremental revenue",
-    "Built and mentored team of 3 product managers while managing portfolio of 5 product streams"
+    "Launched an MVP for LLM-based extraction of unstructured invoice data, replacing manual ESG workflows with scalable automation",
+    "Built and own the Customer Self-Service roadmap in a UCaaS platform, aligning multiple teams around clear priorities and delivery",
+    "Delivered and launched SaaS products and features across UCaaS, CRM, and legal tech, taking them from discovery to market",
+    "Established and scaled product development practices, improving delivery predictability and team performance",
+    "Drove product decisions through research, experimentation, and data, consistently turning insights into shipped outcomes"
   ],
   "skills": {
     "productManagement": [
-      "Product Strategy & Roadmapping",
-      "User Research & Customer Interviews",
-      "A/B Testing & Experimentation",
-      "Growth & Retention Strategy",
-      "Product Analytics & Metrics",
-      "Agile & Scrum Methodologies",
-      "Go-to-Market Strategy",
-      "Stakeholder Management"
+      "Product strategy and roadmap ownership aligned with business goals and user needs",
+      "Product discovery and research (qualitative, quantitative, competitive, regulatory)",
+      "Prototyping and testing ideas with AI and low-code/no-code tools to validate assumptions",
+      "Prioritization, scoping, and driving alignment and adoption",
+      "Problem solving, analytical thinking, and design thinking",
+      "Stakeholder communication and cross-functional collaboration"
     ],
     "technical": [
-      "SQL & Data Analysis",
-      "API & Platform Integration",
-      "Mobile & Web Technologies",
-      "Machine Learning Concepts",
-      "System Design Fundamentals",
-      "REST APIs",
-      "JSON/XML"
+      "Data Analysis with Python and SQL",
+      "API specifications (SOAP/XML, REST/JSON)",
+      "UML/BPMN notations",
+      "AI vibecoding and prototyping",
+      "System UI/UX Design Fundamentals",
+      "Jira space administration"
     ],
     "tools": [
-      "Jira & Confluence",
-      "Figma & Sketch",
-      "Mixpanel & Amplitude",
-      "Google Analytics",
-      "Looker & Tableau",
-      "Productboard",
-      "Miro & FigJam",
-      "Postman"
+      "Jira, ClickUp, Asana, Trello",
+      "Confluence, Notion, Google Docs",
+      "Figma, FigmaJam, Miro",
+      "Productboard & DoveTail",
+      "Hotjar",
+      "LookerStudio",
+      "Postman, Swagger",
+      "VS Code, n8n, Lovable",
+      "ActiveCampaign", 
+      "Zapier",
+      "Draw.io, Axure, Balsamiq",
+      "Slack & MS Teams",
+      "Semrush & Google Analytics"
     ],
     "domains": [
-      "B2C SaaS",
-      "Mobile-First Products",
-      "E-commerce & Marketplaces",
-      "Social & Community Platforms",
-      "Subscription Business Models",
-      "Freemium to Premium Conversion"
+      "B2B SaaS",
+      "SME & Enterprise",
+      "ESG",
+      "UCaaS",
+      "CRM"
+    ],
+    "Leadership": [
+      "Dev team leadership",
+      "Agile practices (Scrum, Kanban)",
+      "Stakeholder relations",
+      "Product presentations"
+    ],
+    "Documentation": [
+      "PRD",
+      "MRD",
+      "Product strategy & vision",
+      "User stories, Use cases, User journeys, JTBD",
+      "Competitive analysis", 
+      "Datasheets, Product sheets, User guides", 
+      "Release notes", 
+      "Team Manifesto",
+      "Team OS (Operating Model)", 
+      "Rollout plans",
+      "Feature guides, configuration guides",
+      "Blog posts, articles, whitepapers"
     ]
   },
   "experience": [
     {
-      "title": "Senior Product Manager",
-      "company": "StreamFlow (Social Media & Content Platform)",
-      "location": "San Francisco, CA",
-      "startDate": "March 2021",
+      "title": "Product Manager",
+      "company": "Telavox (Unified communications and cloud PBX telephony provider)",
+      "location": "Malmö, Sweden",
+      "startDate": "February 2025",
       "endDate": "Present",
       "current": true,
-      "description": "Leading product strategy and execution for core engagement and monetization features serving 8M+ monthly active users. Managing cross-functional teams of 15+ engineers, designers, and data scientists.",
+      "description": "Leading end-to-end strategy, roadmap, and delivery for Customer Self-Service product domain",
       "achievements": [
-        "Drove 120% user growth (2M to 8M MAU) by launching creator tools suite and viral sharing features",
-        "Increased average revenue per user (ARPU) by 65% through premium subscription tier and in-app purchases",
-        "Shipped AI-powered content recommendation system that boosted session time by 35% and daily active users by 28%",
-        "Led platform redesign that improved user retention (D30) from 32% to 51% and reduced churn by 40%",
-        "Established data-driven experimentation culture, running 50+ A/B tests quarterly with 85% statistical significance",
-        "Mentored 3 product managers and built product management best practices across organization"
+        "Develop, own, and drive the product strategy and end-to-end roadmap for the “Customer Self-Service” product domain within UCaaS platform, aligning domain priorities with Platform and Group goals",
+        "Lead product discovery of customer, partner, and reseller needs, pain points, and operational insights, translating them into clearly defined product problems, opportunities, and prioritized bets",
+        "Define and drive an API improvement roadmap, including endpoint lifecycle management, performance and payload optimization, documentation enhancements, new endpoints, and introduction of an API governance approach and developer API hub",
+        "Provide cross-functional domain leadership, ensuring alignment across platform and supporting teams, coordinating dependencies to enable clear accountability and seamless execution",
+        "Define requirements and success criteria for customer self-service capabilities, and drive improvements in system performance, scalability, and reliability, balancing user experience, platform constraints, and measurable outcomes",
+        "Contribute to shaping and evolving the Product & Engineering operating model (“TeamOS”), promoting domain ownership, outcome-driven approaches, and effective cross-team collaboration"
       ],
       "technologies": [
-        "Mixpanel",
-        "Amplitude",
+        "Swagger",
+        "FigmaJam",
         "Figma",
         "Jira",
-        "SQL",
-        "Python",
-        "TensorFlow",
-        "AWS",
-        "GraphQL"
+        "Confluence",
+        "Google Docs",
+        "Postman",
+        "Miro",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Product Manager & Dev Team Lead",
+      "company": "Metry, part of EvoraGlobal (Real estate ESG SaaS platform)",
+      "location": "Gothenburg, Sweden",
+      "startDate": "March 2023",
+      "endDate": "February 2025",
+      "current": false,
+      "description": "Leading end-to-end product development for AI-powered data collection methods and tools",
+      "achievements": [
+        "Led a software development team building internal tools for automated ESG data collection, including AI-powered workflows for structured and unstructured data extraction; successfully launched an MVP for reliable data extraction from PDF and image invoices using LLMs, enabling scalable automation of previously manual processes",
+        "Defined and drove the product vision for data collection methods, leading discovery and delivery cycles (problem definition, solution validation, and iterative rollout) to improve extraction accuracy, reduce manual effort, and support platform scalability",
+        "Owned the product roadmap end-to-end, aligning with business goals and coordinating dependencies across Product and Engineering teams",
+        "Acted as the team’s accountable lead, overseeing day-to-day operations using agile practices while maintaining team effectiveness, healthy dynamics, and sustainable pace",
+        "Collaborated with internal stakeholders and external partners (product managers, executives, customers, prospects, industry experts, and backend, frontend, and UX teams) to align solutions and remove dependencies"
+      ],
+      "technologies": [
+        "Swagger API",
+        "Postman",
+        "Figma",
+        "DoveTail",
+        "LookerStudio",
+        "Draw.io",
+        "Jira",
+        "Confluence"
       ]
     },
     {
       "title": "Product Manager",
-      "company": "FitLife (Health & Wellness App)",
-      "location": "San Francisco, CA",
-      "startDate": "June 2018",
-      "endDate": "February 2021",
+      "company": "Nation.better (Legal immigration SaaS platform)",
+      "location": "London (Remote), UK",
+      "startDate": "October 2022",
+      "endDate": "March 2023",
       "current": false,
-      "description": "Owned end-to-end product development for fitness tracking and social features, working with teams of 10+ engineers and designers to launch high-impact features for 3M+ users.",
+      "description": "Owned vision and feature delivery for UK visa SaaS, balancing compliance, UX, and technical constraints",
       "achievements": [
-        "Launched community challenges feature that drove 200% increase in user-generated content and 45% boost in weekly active users",
-        "Redesigned onboarding flow using Jobs-to-be-Done framework, improving activation rate from 38% to 65%",
-        "Implemented freemium to premium conversion funnel that increased paid subscribers by 85% ($2.5M ARR)",
-        "Built personalized workout recommendation engine using collaborative filtering, increasing completion rates by 52%",
-        "Led mobile app redesign that improved App Store rating from 3.8 to 4.7 stars with 10K+ reviews",
-        "Reduced customer support tickets by 35% through in-app education and improved UX"
+        "Owned the vision and strategy for a dedicated part of a SaaS B2B2C platform (UK visas and immigration), setting priorities and OKRs",
+        "Led end-to-end delivery of new features, from ideation to release, including ’Certificate of Sponsorship’ and ’Skilled Worker’ visas",
+        "Guided product discovery across multiple agile teams, aligning development with strategy",
+        "Directed product-related technical and design decisions, balancing feasibility, UX, and compliance",
+        "Conducted A/B and multi-variant tests to validate hypotheses",
+        "Researched UK legislative requirements independently and with immigration experts"
       ],
       "technologies": [
-        "Google Analytics",
-        "Optimizely",
-        "Sketch",
-        "Productboard",
-        "SQL",
-        "Looker",
-        "Firebase",
-        "REST APIs"
+        "ClickUp",
+        "Slack",
+        "Notion",
+        "Hotjar"
       ]
     },
     {
-      "title": "Associate Product Manager",
-      "company": "ShopCircle (E-commerce Marketplace)",
-      "location": "Palo Alto, CA",
-      "startDate": "July 2016",
-      "endDate": "May 2018",
+      "title": "Product Manager UCaaS & CRM",
+      "company": "DialLink, former Inperium (UCaaS platform, cloud PBX, and CRM)",
+      "location": "Miami Beach (Remote), Florida",
+      "startDate": "December 2020",
+      "endDate": "August 2022",
       "current": false,
-      "description": "Supported product development for buyer experience and search features on growing marketplace platform with 500K+ monthly transactions.",
+      "description": "Shaped strategy and launched B2B SaaS products to market - CRM and UCaaS Business Phone",
       "achievements": [
-        "Launched smart search with autocomplete and filters, increasing search-to-purchase conversion by 32%",
-        "Implemented one-click checkout flow that reduced cart abandonment from 68% to 42%",
-        "Built seller rating and review system that increased buyer trust and boosted GMV by 25%",
-        "Conducted 40+ user interviews and usability tests to inform product roadmap and feature prioritization",
-        "Collaborated with engineering team to improve page load times by 40%, reducing bounce rate by 18%"
+        "Shaped vision & strategy for B2B UCaaS business phone and SaaS CRM solutions (mobile, web, desktop)",
+        "Established agile processes in two Scrum dev teams, enhancing performance and collaboration",
+        "Bridged UI/UX design with my development team to improve workflows and output quality",
+        "Conducted user research to align new features with customer pain points and company goals",
+        "Developed product roadmaps, defining milestones, specifications, and success metrics",
+        "Launched both products successfully to the market"
       ],
       "technologies": [
-        "Google Analytics",
-        "Hotjar",
-        "Balsamiq",
         "Jira",
-        "SQL",
-        "Stripe API",
-        "Shopify APIs"
+        "Confluence",
+        "Productboard",
+        "ActiveCampaign",
+        "Draw.io"
+      ]
+    },
+    {
+      "title": "Senior Systems Analyst",
+      "company": "Argus Telecom (Telecommunications ERP solution)",
+      "location": "Saint Petersburg",
+      "startDate": "May 2019",
+      "endDate": "December 2020",
+      "current": false,
+      "description": "Translated complex client requirements into technical solutions, producing documentation and supporting high-load ERP implementation",
+      "achievements": [
+        "Conducted systems analysis for a complex high-load enterprise ERP system (WFM) and defined clear technical tasks for software developers",
+        "Gathered and analyzed requirements from diverse paying clients to inform development",
+        "Aligned business goals with technical solutions, defining scopes, managing risks, and negotiating timelines",
+        "Created UML/BPMN diagrams, API specifications (SOAP/XML, REST/JSON), and wireframes (Axure, Balsamiq)",
+        "Authored and maintained technical documentation, including MRD/PRD, requirement specs, use cases, test cases, and internal wikis",
+        "Delivered user instructions, conducted UAT demos, and presented solutions to clients"
+      ],
+      "technologies": [
+        "Postman",
+        "Confluence",
+        "Jira",
+        "Axure",
+        "Balsamiq"
+      ]
+    },
+    {
+      "title": "Systems Analyst",
+      "company": "Rusoft (Custom software development company)",
+      "location": "Saint Petersburg",
+      "startDate": "October 2018",
+      "endDate": "March 2019",
+      "current": false,
+      "description": "Led early-stage product ideation and MVP definition for a core banking system, managing research, planning, and documentation",
+      "achievements": [
+        "Managed product ideation (Core Banking System), visioning, research and planning from inception",
+        "Established business hypotheses and identified POCs and MVP functionality for initial releases",
+        "Defined project phases and milestones and necessary team structure",
+        "Conducted competitor, technology, industry, and regulatory landscape research and analysis",
+        "Created and managed Atlassian Confluence space, maintaining essential documentation (PRD, market overview documents, use cases, user stories, presentations, etc.)"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "title": "Product Marketing Manager",
+      "company": "Netwrix (Cyber-security & data governance platform)",
+      "location": "Saint Petersburg",
+      "startDate": "April 2014",
+      "endDate": "August 2018",
+      "current": false,
+      "description": "Developed product messaging, content strategy, and marketing execution to drive adoption and support sales teams",
+      "achievements": [
+        "Developed compelling product messaging and positioning for marketing collateral about the flagship product – cyber-security platform Netwrix Auditor",
+        "Conducted market, competitor, and win/loss research to stay ahead of industry trends and user needs",
+        "Managed marketing deliverables for software releases, coordinating multiple teams and their release plans",
+        "Created and executed content strategies to drive demand through eBooks, product guides, and various digital assets (corporate blog, knowledge base articles, etc.)",
+        "Provided sales teams with tools and training for platform positioning and sales",
+        "Served as a product and market expert for non-technical teams, supporting PPC, PR, SEO, and email automation workflows"
+      ],
+      "technologies": [
+        "Jira",
+        "Salesforce",
+        "Semrush",
+        "Google Analytics",
+        "Asana"
+      ]
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "Northern Capital Gateway (German operator of international airport Pulkovo)",
+      "location": "Saint Petersburg",
+      "startDate": "April 2012",
+      "endDate": "January 2014",
+      "current": false,
+      "description": "Planned and executed terminal operational readiness trials, managing staff and contingency testing for large-scale operations",
+      "achievements": [
+        "As part of the ORAT team, developed new standard operating procedures, contingency plans, and operational readiness plans, including passenger flow and baggage operations",
+        "Conducted on-site inspections of the terminal under construction and documented progress and issues",
+        "Created operational trial scenarios and test plans for emergencies, contingencies, and airport systems",
+        "Managed trial operations during official trial days, involving 1,000 trial passengers and 300 staff",
+        "Curated a team of 23 temporary project assistants that handled baggage operations",
+        "Identified project risks and collaborated with key decision-makers to plan response actions across all phases"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "title": "Business Analyst",
+      "company": "National Satellite Company (Satellite television & telecommunication services)",
+      "location": "Saint Petersburg",
+      "startDate": "July 2011",
+      "endDate": "April 2012",
+      "current": false,
+      "description": "Conducted market research, built product roadmaps, and developed buyer/user profiles to guide new product initiatives",
+      "achievements": [
+        "Introduced new product and service ideas through market research in the telecommunications sector",
+        "Justified financial benefits of introduced products, estimated implementation costs versus projected revenue",
+        "Developed product evolution plans and roadmaps for upcoming years",
+        "Provided product/service and market knowledge to assist project managers in delivering projects",
+        "Researched and developed buyer and user profiles",
+        "Recommended packaging and branding strategies for new technical products",
+        "Represented the company at technology exhibitions (work at a booth)"
+      ],
+      "technologies": [
       ]
     }
   ],
   "education": [
     {
-      "degree": "Master of Business Administration (MBA)",
-      "institution": "Stanford Graduate School of Business",
-      "location": "Stanford, CA",
-      "graduationDate": "June 2016",
-      "honors": "Arjay Miller Scholar (top 10%)",
+      "degree": "Master of Science in Information Technologies and Innovation Management",
+      "institution": "Saint Petersburg State University",
+      "location": "Saint Petersburg",
+      "graduationDate": "June 2011",
+      "honors": "",
       "relevantCourses": [
-        "Product Management & Marketing",
-        "Data-Driven Decision Making",
-        "Technology Entrepreneurship",
+        "Informatics",
+        "Innovation Management",
+        "Corporate Social Responsibility",
+        "Product Marketing", 
+        "Management", 
         "Design Thinking"
       ]
     },
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "institution": "University of California, Berkeley",
-      "location": "Berkeley, CA",
-      "graduationDate": "May 2014",
-      "honors": "Magna Cum Laude, Dean's List",
+      "degree": "Master of Science in Economics and Business Administration",
+      "institution": "Lappeenranta University of Technology",
+      "location": "Lappeenranta",
+      "graduationDate": "June 2011",
+      "honors": "",
       "relevantCourses": [
-        "Human-Computer Interaction",
-        "Database Systems",
-        "Software Engineering",
-        "Machine Learning"
+        "Supply chain management",
+        "Economics",
+        "Technology Entrepreneurship"
+      ]
+    },
+    {
+      "degree": "Bachelor of Science in Management of International Education",
+      "institution": "Saint Petersburg State Polytechnic University",
+      "location": "Saint Petersburg",
+      "graduationDate": "June 2009",
+      "honors": "",
+      "relevantCourses": [
+        "Management",
+        "Marketing",
+        "Economics",
+        "Entrepreneurship",
+        "International Relations"
       ]
     }
   ],
   "certifications": [
     {
-      "name": "Certified Scrum Product Owner (CSPO)",
-      "issuer": "Scrum Alliance",
-      "date": "March 2019",
-      "credentialId": "001234567",
-      "url": "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner"
+      "name": "Vibe Code This",
+      "issuer": "LinkedIn Learning",
+      "date": "April 2026",
+      "credentialId": "",
+      "url": "https://www.linkedin.com/learning/certificates/c1c3e2cb77d3941e8fb2b722c652301acf1d83bdbb4425f6e8279a4b2df0b88a"
     },
     {
-      "name": "Google Analytics Individual Qualification (GAIQ)",
-      "issuer": "Google",
-      "date": "January 2023",
-      "credentialId": "12345678",
-      "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=53-google-analytics-4"
+      "name": "AI for Organizational Leaders",
+      "issuer": "LinkedIn Learning",
+      "date": "December 2024",
+      "credentialId": "",
+      "url": "https://www.linkedin.com/learning/certificates/ac74fd878cfd94986a03bfd762510ebb006e9d98dfed43161c321dceac00081e?trk=share_certificate"
     },
     {
-      "name": "Product-Led Growth Certification",
-      "issuer": "Product-Led Alliance",
-      "date": "September 2022",
-      "credentialId": "PLG-2022-0987",
-      "url": "https://www.productledalliance.com/"
+      "name": "Atlassian Agile Project Management Professional Certificate",
+      "issuer": "LinkedIn Learning",
+      "date": "December 2024",
+      "credentialId": "",
+      "url": "https://www.linkedin.com/learning/certificates/066d9d229ed157b98d34121a69e6d88911ceac0f83d9ff575baf58218a28c684"
+    },
+    {
+      "name": "Quantitative Data Analysis with Python",
+      "issuer": "Practicum by Yandex",
+      "date": "July 2021",
+      "credentialId": "",
+      "url": "https://drive.google.com/file/d/1DlQbvx3wUCTsDTnXKrBjQWrhvKF9jyAd/view?usp=sharing"
+    },
+    {
+      "name": "Pragmatic Marketing level III certified: Market, Launch, Price",
+      "issuer": "Pragmatic Institute",
+      "date": "July 2016",
+      "credentialId": "",
+      "url": "https://www.pragmaticinstitute.com/product/product-marketing-certification/#courses"
     }
   ],
   "languages": [
     {
       "language": "English",
+      "proficiency": "Full professional proficiency (C1/C2)"
+    },
+    {
+      "language": "Swedish",
+      "proficiency": "Beginner (A2/B1)"
+    },
+    {
+      "language": "Ru ssian",
       "proficiency": "Native"
-    },
-    {
-      "language": "Mandarin Chinese",
-      "proficiency": "Native (Bilingual)"
-    },
-    {
-      "language": "Spanish",
-      "proficiency": "Professional Working Proficiency"
     }
   ],
   "projects": [
     {
-      "name": "Product Manager Mentor Program",
-      "description": "Founded mentorship program connecting experienced PMs with aspiring product professionals",
-      "role": "Founder & Lead Mentor",
+      "name": "Watercolor Painting Tracker",
+      "description": "Personal watercolor painting analytics app for watercolor artists designed to support deliberate practice, helping artists reflect on their painting sessions, identify work and technique patterns, and better understand what drives their artistic growth over time. ",
+      "role": "Author",
       "technologies": [],
-      "url": "https://pmmentorship.org",
+      "url": "https://github.com/petr-agulin/painting-tracker",
       "highlights": [
-        "Mentored 25+ junior PMs transitioning into product management",
-        "Created curriculum covering product strategy, user research, and data analytics",
-        "90% of mentees secured PM roles within 6 months"
+        "Log paintings — record subject, style, inspiration source, paper, mood, and more",
+        "Log sessions — track time, techniques, colors used, mental state, what worked and what didn't",
+        "Visual palette — build your personal paint collection from a database of 200+ professional watercolor paints across Schmincke Horadam, Winsor & Newton, Daniel Smith, Holbein, and Sennelier",
+        "Progress timeline — see a painting evolve session by session with photos and notes",
+        "Next up inbox — see all in-progress paintings sorted by last session date so nothing gets forgotten",
+        "Insights dashboard — discover patterns in your painting habits after months of data",
+        "Personal records — track total hours painted, best streaks, longest sessions",
+        "Export — download any painting's full history as a CSV file"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Product Leader of the Year",
-      "issuer": "Women in Product",
-      "date": "2023",
-      "description": "Recognized for excellence in product leadership and mentorship"
+      "title": "",
+      "issuer": "",
+      "date": "",
+      "description": ""
     },
     {
-      "title": "40 Under 40 in Tech",
-      "issuer": "Silicon Valley Business Journal",
-      "date": "2022",
-      "description": "Featured as rising leader in technology and product innovation"
+      "title": "",
+      "issuer": "",
+      "date": "",
+      "description": ""
     }
   ],
   "publications": [
     {
-      "title": "Building Growth Loops in B2C Products",
-      "publisher": "Product Coalition (Medium)",
-      "date": "October 2023",
-      "url": "https://productcoalition.com"
+      "title": "",
+      "publisher": "",
+      "date": "",
+      "url": ""
     },
     {
-      "title": "From 0 to 1M Users: Lessons in Product-Market Fit",
-      "publisher": "Mind the Product",
-      "date": "June 2022",
-      "url": "https://www.mindtheproduct.com"
+      "title": "",
+      "publisher": "",
+      "date": "",
+      "url": ""
     }
   ]
 }

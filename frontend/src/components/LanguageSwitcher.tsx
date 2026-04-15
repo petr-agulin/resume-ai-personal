@@ -25,6 +25,7 @@ const languageLabels: Record<string, string> = {
   pt: 'Switch to Portuguese',
   zh: 'Switch to Chinese',
   ja: 'Switch to Japanese',
+  se: 'Switch to Swedish',
   ko: 'Switch to Korean'
 }
 

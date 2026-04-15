@@ -1,21 +1,21 @@
 {
   "site": {
-    "name": "Sarah Chen",
-    "title": "Senior Product Manager",
-    "domain": "https://sarahchen.com",
-    "description": "Senior Product Manager specializing in B2C SaaS products. 8+ years of experience scaling products from 0 to millions of users.",
+    "name": "Petr Agulin",
+    "title": "Product Manager",
+    "domain": "https://www.linkedin.com/in/petragulin/",
+    "description": "Experienced and empathetic product manager with hands-on experience building B2B & B2B2C SaaS products for startups, SMEs, and enterprises.",
     "language": "en",
     "ogImage": "/og-image.png",
     "favicon": "/favicon.ico"
   },
   "contact": {
-    "email": "sarah.chen@example.com",
-    "phone": "+1 (415) 555-0123",
-    "location": "San Francisco, CA",
-    "linkedin": "https://linkedin.com/in/sarahchen",
-    "github": "https://github.com/schen"
+    "email": "peter.agulin@gmail.com",
+    "phone": "+46 (762) 561-824",
+    "location": "Gothenburg, Sweden",
+    "linkedin": "https://www.linkedin.com/in/petragulin/",
+    "github": "github.com/petr-agulin"
   },
-  "theme": "creative",
+  "theme": "modern",
   "features": {
     "enableChat": true,
     "enableJobFit": true,
@@ -30,7 +30,7 @@
   },
   "languages": {
     "default": "en",
-    "supported": ["en","de"]
+    "supported": ["en","se"]
   },
   "ai": {
     "provider": "groq",

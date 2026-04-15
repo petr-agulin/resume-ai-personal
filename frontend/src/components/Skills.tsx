@@ -32,8 +32,8 @@ export const Skills = () => {
 
       if (Array.isArray(skills) && skills.length > 0) {
         // Alternate between icons for visual variety
-        const icons = [Check, Circle, Check]
-        const types = ['strong', 'moderate', 'strong']
+        const icons = [Check, Check, Check]
+        const types = ['strong', 'strong', 'strong']
 
         skillCategories.push({
           title: formatCategoryName(key),
@@ -76,7 +76,7 @@ export const Skills = () => {
                       <motion.li
                         key={skillIndex}
                         className="skill-list-item"
-                        initial={{ opacity: 0, x: -10 }}
+                        initial={{ opacity: 1, x: -10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.3, delay: skillIndex * 0.05 }}

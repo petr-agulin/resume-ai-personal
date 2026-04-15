@@ -11,8 +11,7 @@ import type { Resume } from '../types/resume'
 
 // Import language-specific resume files statically for Vite bundling
 // Only import files that exist; others will be undefined
-import resumeDeData from '../../../data/resume.de.json'
-import resumeZhData from '../../../data/resume.zh.json'
+import resumeSeData from '../../../data/resume.se.json'
 
 // Type for site configuration
 export interface SiteConfig {
@@ -72,8 +71,7 @@ export function getSiteConfig(): SiteConfig {
 // Map of language-specific resume data
 // Vite will statically bundle these at build time
 const languageResumes: Record<string, Resume> = {
-  de: resumeDeData as Resume,
-  zh: resumeZhData as Resume,
+  se: resumeSeData as Resume
 }
 
 // Cache for loaded resumes
@@ -82,7 +80,7 @@ const resumeCache: Record<string, Resume> = {}
 /**
  * Convert JSON resume data to Resume type
  * Supports loading language-specific resume files
- * @param lang - Language code (e.g., 'en', 'de'). If not provided, uses default resume.json
+ * @param lang - Language code (e.g., 'en', 'de', 'se'). If not provided, uses default resume.json
  */
 export function getResumeData(lang?: string): Resume {
   // If no language specified or English, return default resume
