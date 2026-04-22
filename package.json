@@ -1,5 +1,5 @@
 {
-  "name": "resumeai",
+  "name": "resumeai-personal",
   "version": "0.1.0",
   "description": "ResumeAI - AI-powered resume website with chatbot and job fit assessment",
   "main": "index.js",
@@ -23,16 +23,16 @@
     "groq",
     "llama"
   ],
-  "author": "Your Name",
+  "author": "Petr A",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Radical-commits/resumeai.git"
+    "url": "https://github.com/petr-agulin/resume-ai-personal"
   },
   "bugs": {
-    "url": "https://github.com/Radical-commits/resumeai/issues"
+    "url": "https://github.com/petr-agulin/resume-ai-personal/issues" 
   },
-  "homepage": "https://github.com/Radical-commits/resumeai#readme",
+  "homepage": "https://github.com/petr-agulin/resume-ai-personal#readme",
   "devDependencies": {
     "concurrently": "^8.2.2"
   },

@@ -1,8 +1,12 @@
 # ResumeAI
 
-> Transform your professional experience into an AI-powered resume website
+Transform your professional experience into an AI-powered resume website
 
-> **Note:** This is a personal adaptation of [ResumeAI by Radical-commits](https://github.com/Radical-commits/resumeai), modified for my own use. If you're looking for the original template to use for yourself, head to the source repo.
+## 💡 Credits & Origin
+
+Based on the excellent work by [Alex K](https://github.com/Radical-commits), this repository is a heavily modified personal fork of the original [ResumeAI project](https://github.com/Radical-commits/resumeai).
+
+It has been adapted for my own use and learning. While I am using this version for my own resume sample on the web, please be aware that it is experimental and subject to changes. I cannot guarantee the same level of maintenance or stability as the original source. For the most stable and "official" version, please refer to the original repository of [ResumeAI project](https://github.com/Radical-commits/resumeai).
 
 ## Overview
 
