@@ -16,6 +16,7 @@ export interface SessionData {
 // Resume structure interfaces
 export interface ResumeContact {
   name: string
+  title: string
   location: string
   phone: string
   email: string
