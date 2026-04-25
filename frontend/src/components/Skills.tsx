@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Check, Circle } from 'lucide-react'
+import { Check } from 'lucide-react'
 import { getResumeData } from '../data/resume'
 
 export const Skills = () => {

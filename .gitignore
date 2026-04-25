@@ -14,6 +14,7 @@ build/
 # Resume data (kept private, injected via env vars at deployment)
 data/resume.json
 data/resume.se.json
+*.b64
 
 # Environment variables
 .env
