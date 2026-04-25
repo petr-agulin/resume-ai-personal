@@ -105,9 +105,12 @@ export function getResumeDataPath(): string {
 }
 
 /**
- * Load resume data
+ * Load resume data — reads from RESUME_EN env var (base64) if set, otherwise from file
  */
 export function loadResumeData(): any {
+  if (process.env.RESUME_EN) {
+    return JSON.parse(Buffer.from(process.env.RESUME_EN, 'base64').toString('utf-8'))
+  }
   const resumePath = getResumeDataPath()
   const resumeData = fs.readFileSync(resumePath, 'utf-8')
   return JSON.parse(resumeData)

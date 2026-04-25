@@ -11,6 +11,10 @@ coverage/
 dist/
 build/
 
+# Resume data (kept private, injected via env vars at deployment)
+data/resume.json
+data/resume.se.json
+
 # Environment variables
 .env
 .env.local
